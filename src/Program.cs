@@ -44,8 +44,6 @@ namespace ELinkConverter
             Console.WriteLine($"Loading elink file.");
 
             ELink link = new ELink(argData.InputFilePath);
-            link.Save(argData.OutputFilePath);
-            return;
 
             if (argData.InjectAll)
             {
